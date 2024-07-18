@@ -45,5 +45,5 @@ jobs:
       - name: Store build
         uses: actions/upload-artifact@v4
         with: 
-          name: miru-${{ matrix.platform }}
-          path: win-unpacked/
+          name: miru-build
+          path: dist/

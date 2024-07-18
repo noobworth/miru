@@ -7,6 +7,7 @@ import electronShutdownHandler from '@paymoapp/electron-shutdown-handler'
 import { development } from './util.js'
 import Discord from './discord.js'
 import Protocol from './protocol.js'
+import Updater from './updater.js'
 import Dialog from './dialog.js'
 import store from './store.js'
 
@@ -47,6 +48,7 @@ export default class App {
 
   discord = new Discord(this.mainWindow)
   protocol = new Protocol(this.mainWindow)
+  updater = new Updater(this.mainWindow)
   dialog = new Dialog(this.webtorrentWindow)
 
   constructor () {

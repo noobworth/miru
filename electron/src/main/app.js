@@ -48,7 +48,6 @@ export default class App {
 
   discord = new Discord(this.mainWindow)
   protocol = new Protocol(this.mainWindow)
-  updater = new Updater(this.mainWindow)
   dialog = new Dialog(this.webtorrentWindow)
 
   constructor () {

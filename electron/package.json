@@ -21,7 +21,6 @@
     "electron": "29.1.4",
     "electron-builder": "^24.13.3",
     "electron-log": "^5.1.5",
-    "electron-updater": "^6.2.1",
     "webpack-merge": "^5.10.0"
   },
   "dependencies": {

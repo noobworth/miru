@@ -2,7 +2,7 @@
 .DS_Store
 
 # Build output
-**/dist/
+#**/dist/
 **/build/
 
 # Dependencies
